@@ -1,0 +1,118 @@
+* {
+  background-color: rgb(37, 37, 37);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+html {
+  overflow-y: hidden;
+}
+
+i {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+button {
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  position: relative;
+  top: 30%;
+  background-color: rgb(19, 12, 12);
+  color: rgb(209, 209, 209);
+  font-weight: bold;
+  transition: all 0.1s ease-in-out;
+  border: none;
+}
+
+input {
+  top: 20px;
+  border-radius: 5px;
+  height: 35px;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 7px 7px 2px 1px rgba(0, 247, 255, 0.048);
+  position: relative;
+  border: none;
+}
+
+::placeholder {
+  color: rgb(49, 49, 49);
+  opacity: 1;
+  font-weight: bold;
+}
+
+div {
+  position: relative;
+  border-radius: 10px;
+  height: 20%;
+  width: 80%;
+  background-color: rgba(112, 112, 112, 0.07);
+  top: 55px;
+}
+
+form {
+  z-index: 100;
+  background-color: #b312cf20;
+  position: relative;
+  text-align: center;
+  top: 300px;
+  width: 40%;
+  height: 350px;
+  border: 3px solid;
+  border-image: linear-gradient(to right, red, blue) 1;
+}
+
+#username {
+  background-color: white;
+}
+
+#password {
+  background-color: white;
+}
+
+#open {
+  display: none;
+}
+
+#title {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: white;
+  background-color: #c5c5c535;
+  position: relative;
+  top: 25px;
+}
+
+/* css background */
+
+canvas {
+  display: block;
+  background: linear-gradient(#00f2ff, #c2c0c0, #c401ff);
+}
+
+#particles-js {
+  top: 0px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: linear-gradient(#1607e7, #080808);
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* css background end */
+
+#spider {
+  transition: all 0.05s ease-in-out;
+}
